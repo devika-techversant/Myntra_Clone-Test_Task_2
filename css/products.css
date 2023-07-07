@@ -258,7 +258,7 @@ input::-webkit-input-placeholder {
   }
 
   #dressSubName {
-    font-size: 24px;
+    font-size: 20px;
     color: #494848;
     font-weight: 400;
   }
@@ -280,19 +280,62 @@ input::-webkit-input-placeholder {
   } */
 
   #starRatings {
-    font-size: 14px;
+    font-size: 16px;
     color: #292828;
     font-weight: 700;
   }
 
+  .addedStar {
+    color: rgba(55, 182, 154, 0.979);
+  }
+
   #numberRatings {
-    font-size: 14px;
+    font-size: 16px;
     color: #494848;
     font-weight: 400;
   }
 
-  .addedStar {
+  #discount {
+    color: #ff905a;
+  }
+
+  #inclusive {
     color: rgba(55, 182, 154, 0.979);
+  }
+
+  #sizeChart {
+    color:#ff3e6c;
+    font-size: 12px;
+  }
+
+  .sizeIcons span{
+    cursor: pointer;
+  }
+
+  .sizeIcons span:hover{
+    border: 1px solid #ff3e6c !important;
+  }
+
+  .addToBagButton {
+    outline: none;
+    border: 1px solid #ff3e6c;
+    background-color: #ff3e6c;
+    border-radius: 5px;
+  }
+
+  .addToBagButton:hover {
+    background-color: #f8567c;
+  }
+
+  .wishlistButton {
+    outline: none;
+    border: 1px solid #8f8d8d;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .wishlistButton:hover {
+    border: 1px solid #292828;
   }
 
 
