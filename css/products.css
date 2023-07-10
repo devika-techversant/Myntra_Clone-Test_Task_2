@@ -321,6 +321,8 @@ input::-webkit-input-placeholder {
     border: 1px solid #ff3e6c;
     background-color: #ff3e6c;
     border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 14px;
   }
 
   .addToBagButton:hover {
@@ -332,20 +334,190 @@ input::-webkit-input-placeholder {
     border: 1px solid #8f8d8d;
     background-color: #ffffff;
     border-radius: 5px;
+    padding: 15px 45px;
+    font-size: 14px;
   }
 
   .wishlistButton:hover {
     border: 1px solid #292828;
   }
 
+.pincode .form-control {
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.pincode .input-group-text {
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.pincode input {
+    font-size: 16px;
+}
+
+.pincode input:focus {
+    outline: none;
+    border: 1px solid rgb(116, 116, 116);
+    box-shadow: none;
+}
+
+.pincode .input-group-text {
+    font-size: 14px;
+    color:#f8567c;
+}
+
+.pincodeNote {
+    font-size: 12px;
+    color: rgb(58, 57, 57);
+}
+
+.noteOnDress {
+    font-size: 16px;
+    color: rgb(58, 57, 57);
+}
+
+.bestPricePoints {
+    color: rgb(58, 57, 57);
+    font-size: 16px;
+}
+
+.credPoint, 
+.emiPoint {
+    color: rgb(58, 57, 57);
+    font-size: 12px;
+}
+
+.bestPricePoints a,
+.credPoint a,
+.emiPoint a {
+    text-decoration: none;
+    color:#f8567c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pD,
+.sAndF,
+.mAndC,
+.rVB {
+    font-size: 16px;
+    color: rgb(58, 57, 57);
+}
+
+.specificationsList {
+    color: rgb(58, 57, 57);
+}
+
+.smallSpec {
+    font-size: 12px;
+}
+
+.bigSpec {
+    font-size: 16px;
+}
+
+#seeMore, #viewDetails {
+    text-decoration: none;
+    color:#f8567c;
+    font-size: 14px;
+    font-weight: 700; 
+}
+
+.ratingsBigNumber {
+    font-size: 42px;
+}
+
+.ratingsBorder {
+    border-right: 1px solid rgb(129, 128, 128);
+}
+
+.starNumber {
+  font-size: 12px;
+  color: rgb(172, 168, 168);
+}
+
+.starRating {
+  font-size: 10px !important;
+  color: rgb(172, 168, 168);
+}
+
+.ratingProgressBar {
+    height: 4px !important;
+    margin-top: 4px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    width: 120px !important;
+}
+
+.ratingProgressBar .firstBar{
+  background-color: #14958f;
+  width: 75% !important;
+}
+
+.ratingProgressBar .secondBar{
+  background-color: rgb(48, 156, 151);
+  width: 40% !important;
+}
+
+.ratingProgressBar .thirdBar{
+  background-color: rgb(113, 197, 193);
+  width: 20% !important;
+}
+
+.ratingProgressBar .fourthBar{
+  background-color: rgb(236, 196, 16);
+  width: 7% !important;
+}
+
+.ratingProgressBar .fifthBar{
+  background-color: rgb(209, 68, 12);
+  width: 22% !important;
+}
+
+.wCS {
+  color: rgb(58, 57, 57);
+}
+
+.whatCustomerSaidProgressBar .progress-bar {
+  background-color: #14958f;
+}
+
+.whatCustomerSaidProgressBar {
+    height: 4px !important;
+    margin-top: 4px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    width: 160px !important;
+    background-color: rgb(190, 187, 187) !important;
+}
+
+.whatCustomerSaidProgressBar .firstBar {
+  width: 86%;
+}
+
+.whatCustomerSaidProgressBar .secondBar {
+  width: 85%;
+}
+
+.whatCustomerSaidProgressBar .thirdBar {
+  width: 53%;
+}
+
+.smallRating {
+  font-size: 10px;
+}
+
+#fourStar {
+  background-color: #4abeb9;
+  padding: 1px 3px;
+}
+
 
 
 
 
 /* Main section ends*/
-
-
-
 
 
 
