@@ -547,6 +547,7 @@ input::-webkit-input-placeholder {
 .footerSection {
   position: relative;
   top: 80px;
+  background-color: whitesmoke;
 }
 
 .fs-12px {
