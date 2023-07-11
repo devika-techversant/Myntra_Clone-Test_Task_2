@@ -388,7 +388,9 @@ input::-webkit-input-placeholder {
 
 .bestPricePoints a,
 .credPoint a,
-.emiPoint a {
+.emiPoint a,
+#seeMore, 
+#viewDetails {
     text-decoration: none;
     color:#f8567c;
     font-size: 14px;
@@ -413,13 +415,6 @@ input::-webkit-input-placeholder {
 
 .bigSpec {
     font-size: 16px;
-}
-
-#seeMore, #viewDetails {
-    text-decoration: none;
-    color:#f8567c;
-    font-size: 14px;
-    font-weight: 700; 
 }
 
 .ratingsBigNumber {
@@ -474,7 +469,8 @@ input::-webkit-input-placeholder {
   width: 22% !important;
 }
 
-.wCS {
+.wCS,
+.rM {
   color: rgb(58, 57, 57);
 }
 
@@ -511,6 +507,15 @@ input::-webkit-input-placeholder {
 #fourStar {
   background-color: #4abeb9;
   padding: 1px 3px;
+}
+
+#fiveStar {
+  background-color: #14958f;
+  padding: 1px 3px;
+}
+
+.pink {
+  color:#f8567c;
 }
 
 
