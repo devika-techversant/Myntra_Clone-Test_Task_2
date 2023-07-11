@@ -19,26 +19,6 @@ body {
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
 }
 
-/* .fs-55 {
-    font-size: 55px;
-} */
-
-
-
-/* .fs-10x {
-    font-size: 10px;
-} */
-
-/* .fs-8x {
-    font-size: 8px;
-} */
-
-
-
-/* .ps-1-9 {
-    padding-left: 1.9rem !important;
-} */
-
 .myntraLogo {
     cursor: pointer;
 }
@@ -226,6 +206,7 @@ input::-webkit-input-placeholder {
     /* z-index: 0;  */
 }
 
+/* Source link section at top starts */
 .sourceLinks a{ 
     font-size: 14px;
     color: #313030;
@@ -235,9 +216,10 @@ input::-webkit-input-placeholder {
 .sourceLinks a:hover{
     text-decoration: underline;
 }
+/* Source link section at top ends */
 
 
-
+/* Product details left section starts */
 .dressImages img{
     cursor: zoom-in;
     /* cursor: url("assets/icons/header/search.png"); */
@@ -248,9 +230,9 @@ input::-webkit-input-placeholder {
   .dressImages img:hover{
     transform: scale(1.02); 
   }
+  /* Product details left section ends */
 
-
-
+  /* Product details right section starts */
   #dressName {
     font-size: 24px;
     color: #292828;
@@ -517,6 +499,7 @@ input::-webkit-input-placeholder {
 .pink {
   color:#f8567c;
 }
+/* Product details right section ends */
 
 
 
@@ -527,26 +510,27 @@ input::-webkit-input-placeholder {
 
 
 
+/* Footer starts */
+.footer {
+  position: relative;
+  top: 80px;
+}
 
+.fs-12px {
+  font-size: 12px !important;
+}
 
+.footerLinks, 
+.popularSearches {
+  text-decoration: none;
+  color: #494848;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contactusFooter {
+  text-decoration: none;
+  color: #526cd0;
+}
+/* Footer ends */
 
 /* Fixed Blue Bell starts*/
 .fixedBlueBell {
