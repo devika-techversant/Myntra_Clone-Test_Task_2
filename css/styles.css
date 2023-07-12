@@ -5,7 +5,7 @@
 
 .fullBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:aquamarine ;
+    background-color: aquamarine;
     width: 100%;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .header h1 {
-    color:cornflowerblue;
+    color: cornflowerblue;
     padding-left: 20px;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .list-group {
-    width: 100%;  
+    width: 100%;
 }
 
 .list-group a {
-    color:rgb(12, 39, 90);
+    color: rgb(12, 39, 90);
 }
