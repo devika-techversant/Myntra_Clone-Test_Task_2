@@ -196,15 +196,30 @@ input::-webkit-input-placeholder {
 .mainSection {
     position: relative;
     top: 100px;
-    /* z-index: 0;  */
+    z-index: 0; 
 }
 
+.mainTitles img{
+    width: 100%;
+}
+
+.mainTitleContents img {
+    width:100%;
+}
+
+.catImg31 {
+    padding-left: 25%;
+}
+
+.catImg32 {
+    padding-right: 25%;
+}
 /* Main section ends*/
 
 /* Footer starts */
 .footerSection {
     position: relative;
-    top: 80px;
+    top: 90px;
     background-color: whitesmoke;
 }
 
