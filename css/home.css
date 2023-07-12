@@ -196,15 +196,24 @@ input::-webkit-input-placeholder {
 .mainSection {
     position: relative;
     top: 100px;
-    z-index: 0; 
+    z-index: 0;
 }
 
-.mainTitles img{
+.mainTitles img,
+.mainTitleContents img {
     width: 100%;
 }
 
-.mainTitleContents img {
-    width:100%;
+.omgDeals img,
+.trendiestPicks img {
+    width: 115%;
+    /* width: 165px;
+    height: 200px; */
+}
+
+.mostLovedBrands img,
+.topBrandsAtBestPrices img {
+    width: 112%;
 }
 
 .catImg31 {
@@ -214,6 +223,7 @@ input::-webkit-input-placeholder {
 .catImg32 {
     padding-right: 25%;
 }
+
 /* Main section ends*/
 
 /* Footer starts */
