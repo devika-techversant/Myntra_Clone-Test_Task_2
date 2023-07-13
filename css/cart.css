@@ -23,10 +23,6 @@ body {
     cursor: pointer;
 }
 
-.fs-13x {
-    font-size: 13px;
-}
-
 /* Header nav bar ends */
 
 /* Main section starts*/
@@ -35,40 +31,113 @@ body {
     position: relative;
     top: 100px;
     z-index: 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
-/* .fs-12px {
+.fs-12px {
     font-size: 12px;
 }
 
-.addressLeft {
-    padding: 20px;
-    margin-left: 10% !important;
-    margin-right: 20% !important;
-    background-color: #bdc3df;
-} */
+.fs-13x {
+    font-size: 13px;
+}
+
+.fs-14px {
+    font-size: 13px;
+}
+
+.fs-15px {
+    font-size: 13px;
+}
+
+.fs-16px {
+    font-size: 16px;
+}
+
+
+/* Main top section starts */
 
 .mainTop {
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .mainTopLeft {
     width: 60%;
-    background-color: chartreuse;
+    padding-left: 10%;
+    /* background-color: chartreuse; */
 }
 
 .mainTopRight {
     width: 40%;
-    background-color: darkgoldenrod;
+    padding-right: 12%;
+    /* background-color: darkgoldenrod; */
 }
 
-.youMayAlsoLike img{
+.smallIcons {
+    width: 22px;
+    font-weight: 900;
+}
+
+.extraSmallIcons {
+    width: 15px;
+}
+
+#changeAddressButton,
+#applyButton {
+    color: #ff3f6c;
+    font-size: 11px;
+    border: 1px solid #ff3f6c !important;
+    background-color: rgb(255, 255, 255);
+}
+
+#changeAddressButton:hover,
+#applyButton:hover {
+    background-color: #ffbdcc;
+}
+
+.dropMore,
+.offerPink {
+    color: #ff3f6c;
+}
+
+.checkboxPink input[type=checkbox] {
+    accent-color: #ff3f6c;
+}
+
+#relativeOfCheckBox {
+    position: relative;
+}
+
+#absoluteCheckBox {
+    position: absolute;
+    /* top: 1%; */
+    z-index: 999;
+}
+
+#placeOrderButton {
+    border: 1px solid #ff3f6c !important;
+    background-color: #ff3f6c;
     width: 80%;
 }
+
+#placeOrderButton:hover {
+    background-color: #fc6f90;
+}
+
+/* Main top section ends */
+
+/* You may also like section starts */
+
+.youMayAlsoLike img {
+    width: 80%;
+}
+
+/* You may also like section ends */
+
 /* Main section ends*/
 
 /* Footer starts */
+
 .footerSection {
     position: relative;
     top: 90px;
