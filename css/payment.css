@@ -54,20 +54,13 @@ body {
     font-size: 16px;
 }
 
-
-/* Main top section starts */
-
-.mainTop {
-    /* background-color: burlywood; */
-}
-
-.mainTopLeft {
+.mainLeft {
     width: 65%;
     padding-left: 10%;
     /* background-color: chartreuse; */
 }
 
-.mainTopRight {
+.mainRight {
     /* width: 35%; */
     padding-right: 12%;
     /* background-color: darkgoldenrod; */
@@ -108,49 +101,13 @@ body {
     color: #ff3f6c;
 }
 
-#changeAddressButton:hover,
-#applyButton:hover {
-    background-color: #ffbdcc;
-}
-
-.dropMore,
-.offerPink {
+.pinkMore {
     color: #ff3f6c;
 }
 
 input[type=radio] {
     accent-color: #ff3f6c;
 }
-
-#relativeOfCheckBox {
-    position: relative;
-}
-
-#absoluteCheckBox {
-    position: absolute;
-    /* top: 1%; */
-    z-index: 999;
-}
-
-#placeOrderButton {
-    border: 1px solid #ff3f6c !important;
-    background-color: #ff3f6c;
-    width: 80%;
-}
-
-#placeOrderButton:hover {
-    background-color: #fc6f90;
-}
-
-/* Main top section ends */
-
-/* You may also like section starts */
-
-.youMayAlsoLike img {
-    width: 80%;
-}
-
-/* You may also like section ends */
 
 /* Main section ends*/
 
