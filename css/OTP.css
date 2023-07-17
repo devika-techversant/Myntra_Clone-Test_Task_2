@@ -239,7 +239,7 @@ input::-webkit-input-placeholder {
 }
 
 #endOfPage {
-    padding-bottom: 80px !important;
+    padding-bottom: 80px;
 }
 
 /* Main Body Ends */
