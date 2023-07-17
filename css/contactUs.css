@@ -196,7 +196,52 @@
   .mainSection {
     position: relative;
     top: 100px;
+    margin-bottom: 200px !important;
     /* z-index: 0;  */
+  }
+
+  #mainHorizontalLineBreak {
+    margin-left: 7%;
+    margin-right: 8%;
+  }
+
+  .fs-20px {
+    font-size: 20px;
+  }
+
+  .fs-14px {
+    font-size: 14px;
+  }
+
+  .fs-11px {
+    font-size: 11px;
+  }
+
+  .ordersButton {
+    color: #14cda8;
+    border: 1px solid #14cda8 !important;
+    border-radius: 5px;
+  }
+
+  .ordersButton:hover {
+    background-color: #93f0dd;
+  }
+
+  .activeQueryType {
+    color: #14cda8;
+  }
+
+  .postalAddressMainDiv {
+    margin-top: 180px;
+  }
+
+  .postalAddressMainDiv a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .postalAddressBlue{
+    color: #526cd0;
   }
 
   /* Main section ends*/
